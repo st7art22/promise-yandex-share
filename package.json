@@ -1,8 +1,8 @@
 {
   "name": "promise-yandex-share",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "load yandex share2 using promise",
-  "main": "src/yandex-share.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.config.js",
