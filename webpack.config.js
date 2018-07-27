@@ -1,14 +1,11 @@
 const path = require('path');
 
 module.exports = [{
-    mode: 'production',
+    mode: 'development',
     entry: './src/yandex-share.js',
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "index.min.js"
-    },
-    module: {
-
+        filename: "index.js"
     },
     context: __dirname,
 }];

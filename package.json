@@ -4,9 +4,10 @@
   "description": "load yandex share2 using promise",
   "main": "dist/index.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.config.js",
-    "dev": "webpack --config dev.config.js"
+    "dev": "webpack --config dev.config.js",
+    "test": "webpack --config test.config.js",
+    "build": "babel src --out-file dist/index.js && minify dist -d dist"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,10 @@
   },
   "homepage": "https://github.com/st7art22/promise-yandex-share#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.4.3",
+    "babel-plugin-uglify": "^1.0.2",
+    "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.19",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0"
