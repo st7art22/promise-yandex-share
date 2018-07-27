@@ -1,6 +1,6 @@
 {
   "name": "promise-yandex-share",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "load yandex share2 using promise",
   "main": "dist/index.min.js",
   "scripts": {
