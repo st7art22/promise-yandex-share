@@ -4,7 +4,9 @@
   "description": "load yandex share2 using promise",
   "main": "src/yandex-share.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "dev": "webpack --config dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/st7art22/promise-yandex-share/issues"
   },
-  "homepage": "https://github.com/st7art22/promise-yandex-share#readme"
+  "homepage": "https://github.com/st7art22/promise-yandex-share#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
 }
