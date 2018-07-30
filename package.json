@@ -1,6 +1,6 @@
 {
   "name": "promise-yandex-share",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "load yandex share2 using promise",
   "main": "dist/index.js",
   "scripts": {
@@ -27,7 +27,6 @@
     "babel-minify": "^0.4.3",
     "babel-plugin-uglify": "^1.0.2",
     "babel-preset-env": "^1.7.0",
-    "clean-webpack-plugin": "^0.1.19",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0"
   }
