@@ -2,11 +2,9 @@
   "name": "promise-yandex-share",
   "version": "0.0.4",
   "description": "load yandex share2 using promise",
-  "main": "dist/index.min.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "dev": "webpack --config dev.config.js",
-    "test": "webpack --config test.config.js",
     "build": "babel src --out-file dist/index.js && minify dist -d dist"
   },
   "repository": {
